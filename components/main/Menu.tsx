@@ -143,7 +143,7 @@ export default function Menu() {
           </Link>
         </NavigationMenuItem>
       
-        <NavigationMenuItem>
+        {/* <NavigationMenuItem>
           <NavigationMenuTrigger className="rounded-full ">Sales and Marketing</NavigationMenuTrigger>
           
           <NavigationMenuContent  >
@@ -159,7 +159,7 @@ export default function Menu() {
 
             </ul>
           </NavigationMenuContent>
-        </NavigationMenuItem>
+        </NavigationMenuItem> */}
 
         <NavigationMenuItem >
           <Link   href="/hireitresource" legacyBehavior passHref>
