@@ -46,22 +46,48 @@ export default function Navbar() {
 
         <div className="flex flex-row gap-5 items-center justify-self-start">
 
-        <Link href ="/contactus"> <ButtonContact/> </Link>
-        
-          {Socials.map((social) => (
-            <Link 
-            target="_blank"
-            href={social.link}>
-            <Image
-              src={social.src}
-              alt={social.name}
-              key={social.name}
-              width={social.w}
-              height={social.h}
+<Link href ="/contactus"> <ButtonContact/> </Link>
 
-            />
-            </Link>
-          ))}
+    <Link 
+    target="_blank"
+    href='https://instagram.com/'
+    >
+    <Image
+      src='/instagram.svg'
+      alt='Instagram'
+      key='Instagram'
+      width={30}
+      height={30}
+    />
+    </Link>
+
+    <Link 
+    target="_blank"
+    href='https://www.facebook.com/'
+    >
+    <Image
+      src='/facebook.svg'
+      alt='Facebook'
+      key='Facebook'
+      width={30}
+      height={30}
+    />
+    </Link>
+
+    <Link 
+    target="_blank"
+    href='https://www.youtube.com/'
+    >
+    <Image
+      src='/youtube.svg'
+      alt='Youtube'
+      key='Youtube'
+      width={30}
+      height={30}
+    />
+    </Link>
+
+</div>
                 
                 {/* <a
                     href="/"
@@ -76,7 +102,7 @@ export default function Navbar() {
 
                 </a> */}
 
-        </div>
+  
 
 
         </header>
