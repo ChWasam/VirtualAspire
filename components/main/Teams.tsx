@@ -17,7 +17,7 @@ const Teams = () => {
         <div className="group relative cursor-pointer items-center justify-center rounded-lg  shadow-[#2A0E61]/50 overflow-hidden transition-shadow hover:shadow-xl hover:shadow-black/30">
           <div className="h-96 w-72">
             <Image
-              src="/wasam.jpg"
+              src="/Wasam.jpg"
               alt="COO"
               width={1000}
               height={1000}
@@ -41,7 +41,7 @@ const Teams = () => {
         <div className="group relative cursor-pointer items-center rounded-lg justify-center overflow-hidden transition-shadow hover:shadow-xl hover:shadow-black/30">
           <div className="h-96 w-72">
             <Image
-              src="/wasam.jpg"
+              src="/Wasam.jpg"
               alt="COO"
               width={1000}
               height={1000}
@@ -65,7 +65,7 @@ const Teams = () => {
         <div className="group relative cursor-pointer items-center rounded-lg justify-center overflow-hidden transition-shadow hover:shadow-xl hover:shadow-black/30">
           <div className="h-96 w-72">
             <Image
-              src="/wasam.jpg"
+              src="/Wasam.jpg"
               alt="COO"
               width={1000}
               height={1000}
